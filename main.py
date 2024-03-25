@@ -1,13 +1,6 @@
 from game import Game
-import requests
 
-# word = "https://random-word-api.herokuapp.com/word"
-
-# fetch_word = requests.get(word)
-fetch_word = "ansar"
-
-# print(fetch_word)
-hangman = Game(fetch_word)
+hangman = Game()
 hangman.show_start()
 
 while hangman.end == False:
